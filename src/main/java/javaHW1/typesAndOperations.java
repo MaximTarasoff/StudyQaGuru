@@ -29,12 +29,8 @@ public class typesAndOperations {
         System.out.println("integer min - 1: " + (Integer.MIN_VALUE - 1));
         System.out.println("byte min - 1: " + (Byte.MIN_VALUE - 1));
 
-        Object number = Byte.MAX_VALUE + 1;
-        if (number instanceof Byte) {
-            System.out.println("После переполнения тип byte не меняется на другой тип");
-        } else {
-            System.out.println("После переполнения тип byte меняется на другой тип");
-        }
+        byte b2 = (byte) (Byte.MAX_VALUE + 5);
+        System.out.println(b2);
 
     }
 }
