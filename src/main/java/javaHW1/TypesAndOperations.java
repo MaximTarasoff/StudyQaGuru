@@ -1,6 +1,6 @@
 package javaHW1;
 
-public class typesAndOperations {
+public class TypesAndOperations {
     public static void main(String[] args) {
         byte b1 = 123;
         short sh1 = -32000;
